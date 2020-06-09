@@ -1,0 +1,184 @@
+,Drug Name,Date,Stage
+0,pd-0332991,2009-12-23,2.0
+1,prexasertib,2010-05-04,1.0
+2,pemetrexed,2010-06-09,1.0
+3,ipilimumab,2011-01-01,
+4,low dose cyclophosphamide (oral),2011-08-12,1.0
+5,cytarabine,2013-06-06,2.0
+6,ags15e,2013-10-16,1.0
+7,pembrolizumab,2014-01-01,
+8,nivolumab,2014-01-01,
+9,gefitinib,2014-01-20,1.0
+10,hyperacute®-melanoma (ham) immunotherapy,2014-02-04,2.0
+11,indoximod,2014-02-27,1.0
+12,alisertib,2014-04-09,2.0
+13,ly2606368,2014-07-30,2.0
+14,omaveloxolone capsules (2.5 mg/capsule),2014-10-08,2.0
+15,pbf-509_80 mg,2015-03-31,2.0
+16,docetaxel,2015-06-02,1.0
+17,bbi608,2015-06-10,1.0
+18,olaparib,2015-06-29,1.0
+19,imcgp100,2015-08-28,2.0
+20,gemcitabine,2015-09-11,1.0
+21,pv-10,2015-09-23,1.0
+22,atezolizumab,2015-11-06,1.0
+23,tivozanib hydrochloride,2015-12-11,3.0
+24,ose2101,2016-01-13,3.0
+25,tlpldc vaccine,2016-02-10,1.0
+26,vismodegib,2016-02-24,1.0
+27,galunisertib,2016-04-12,1.0
+28,pexidartinib,2016-05-19,1.0
+29,durvalumab; medi4736,2016-06-08,1.0
+30,sra737,2016-06-14,1.0
+31,"sra737, gemcitabine, cisplatin",2016-06-14,1.0
+32,mocetinostat,2016-06-20,2.0
+33,ca-170,2016-06-24,1.0
+34,mk-3475,2016-08-02,1.0
+35,lcl161,2016-09-07,1.0
+36,tmt212,2016-09-14,1.0
+37,durvalumab,2016-09-15,2.0
+38,incb001158,2016-09-16,2.0
+39,ck-101,2016-10-06,2.0
+40,faz053,2016-10-18,1.0
+41,immune checkpoint inhibitors or docetaxel,2016-11-25,3.0
+42,cetuximab,2016-12-02,2.0
+43,interleukin-2,2016-12-12,2.0
+44,anti-pd-l1 antibody atezolizumab,2016-12-14,2.0
+45,avelumab,2017-01-01,
+46,trilaciclib,2017-02-02,2.0
+47,axitinib,2017-03-28,2.0
+48,denosumab,2017-05-22,2.0
+49,olaptesed pegol - monotherapy,2017-05-30,1.0
+50,pazopanib,2017-06-27,2.0
+51,enfortumab vedotin,2017-07-17,2.0
+52,intralesional il-2,2017-07-21,0.0
+53,alt-803 + pembrolizumab,2017-07-25,2.0
+54,decitabine (dac),2017-07-31,2.0
+55,asp8374,2017-08-24,1.0
+56,opdivo injectable product or keytruda injectable product,2017-08-24,2.0
+57,pbf-1129,2017-09-07,1.0
+58,pembrolizumab at 7 days prior,2017-09-11,1.0
+59,5-fluorouracil (5-fu),2017-09-13,1.0
+60,cyclophosphamide,2017-09-19,1.0
+61,enfortumab vedotin (ev),2017-09-20,1.0
+62,nivolumab injection,2017-10-02,2.0
+63,dsp-7888 dosing emulsion,2017-10-17,1.0
+64,immune checkpoint inhibitor,2017-10-18,2.0
+65,doxorubicin,2017-10-23,2.0
+66,epacadostat,2017-10-26,2.0
+67,cyp1a2 (caffeine),2017-11-07,1.0
+68,ly3381916,2017-11-17,1.0
+69,cyclophosphamide 50mg,2017-11-21,2.0
+70,testosterone undecanoate and sunitinib or pazopanib,2017-12-20,2.0
+71,propranolol hydrochloride,2017-12-27,2.0
+72,apg-1387 for injection,2017-12-29,1.0
+73,cemiplimab,2018-01-01,
+74,rhil-15,2018-01-03,1.0
+75,camrelizumab,2018-02-09,3.0
+76,sorafenib,2018-02-20,2.0
+77,bi 836880,2018-03-16,1.0
+78,vorolanib,2018-04-27,1.0
+79,pembrolizumab or nivolumab,2018-04-27,2.0
+80,trastuzumab deruxtecan,2018-05-14,1.0
+81,cabozantinib,2018-05-29,1.0
+82,ad-p53,2018-06-04,2.0
+83,m7824,2018-06-13,1.0
+84,hu5f9-g4,2018-06-15,1.0
+85,pembrolizumab injection [keytruda],2018-06-20,2.0
+86,rucaparib,2018-06-28,2.0
+87,valacyclovir,2018-07-03,1.0
+88,vegfr/pdgfr dual kinase inhibitor x-82,2018-07-11,2.0
+89,placebo,2018-07-26,3.0
+90,blinatumomab,2018-07-30,1.0
+91,tomivosertib (eft-508),2018-08-06,2.0
+92,lmb-100,2018-08-23,2.0
+93,com701,2018-09-12,1.0
+94,denosumab-nivolumab combination,2018-09-13,2.0
+95,immune-checkpoint inhibitors therapies,2018-09-17,4.0
+96,9-ing-41,2018-09-20,2.0
+97,grapiprant and pembrolizumab,2018-10-04,1.0
+98,metformin hydrochloride,2018-10-17,2.0
+99,sunitinib,2018-11-02,3.0
+100,rintatolimod,2018-11-08,1.0
+101,azd6738,2018-11-14,2.0
+102,av-mel-1,2018-11-16,1.0
+103,dabrafenib,2018-11-27,2.0
+104,pd-1 antibody (shr-1210),2018-11-28,2.0
+105,checkpoint inhibitor (cpi) such as pembrolizumab,2018-11-28,3.0
+106,tas 102,2018-12-03,2.0
+107,azd5363+olaparib+durvalumab,2018-12-11,1.0
+108,toripalimab,2019-01-18,2.0
+109,prednisone,2019-01-28,0.0
+110,nivolumab plus ipilimumab,2019-01-30,2.0
+111,temozolomide,2019-02-06,2.0
+112,tsr-042,2019-02-07,2.0
+113,durvalumab (medi4736),2019-02-07,2.0
+114,avid200,2019-02-08,1.0
+115,kn046,2019-02-12,2.0
+116,ft500,2019-02-15,1.0
+117,tagrisso® 80mg (osimertinib),2019-03-07,2.0
+118,nivolumab 480mg and surgical resection,2019-03-18,2.0
+119,surufatinib/humanized anti-pd-1 monoclonal antibody,2019-03-18,1.0
+120,ctx-471,2019-03-19,1.0
+121,idh1r132h peptide vaccine,2019-03-28,1.0
+122,nt-i7,2019-04-03,2.0
+123,vtx-2337,2019-04-08,1.0
+124,sitravatinib,2019-04-08,3.0
+125,capecitabine,2019-04-19,2.0
+126,shr1210 combined with folfox,2019-05-07,2.0
+127,carboplatin,2019-05-10,2.0
+128,"shr-1210 combined with trastuzumab , oxaliplatin and capecitabine",2019-05-15,2.0
+129,parp inhibitor and anti-pd-l1,2019-05-15,2.0
+130,"combined therapy using oxaliplatin and gemcitabine chemotherapy, lenvatinib and pd1 antibody (js001)",2019-05-15,2.0
+131,intraperitoneal (ip) nivolumab infusion,2019-05-22,2.0
+132,js001(pd-1 inhibitor),2019-05-29,1.0
+133,sintilimab maintenance,2019-06-12,2.0
+134,bi 765063,2019-06-18,1.0
+135,cx-072,2019-06-20,2.0
+136,pd-1 inhibitor,2019-06-21,2.0
+137,"radium-223 dichloride (xofigo, bay 88-8223)",2019-06-24,2.0
+138,tno155,2019-06-27,1.0
+139,medi0457,2019-06-28,2.0
+140,89zr-dfo-atezolizumab,2019-07-05,0.0
+141,thor-707,2019-07-05,1.0
+142,the combination of radiotherapy with anti-pd1 (pembrolizumab or nivolumab),2019-07-12,2.0
+143,imsa101,2019-07-15,1.0
+144,sns-301,2019-07-26,2.0
+145,dexamthasone,2019-07-30,2.0
+146,prolonged glucocorticosteroid (prednisone) regimen,2019-07-30,4.0
+147,loperamide,2019-07-31,1.0
+148,atezolizumab injection [tecentriq],2019-08-16,4.0
+149,trametinib,2019-08-16,2.0
+150,cd24fc,2019-08-19,1.0
+151,peptide,2019-08-28,1.0
+152,bay1895344,2019-09-19,1.0
+153,bnt411,2019-09-24,2.0
+154,pegylated liposomal doxorubicin (pld),2019-09-24,2.0
+155,capmatinib,2019-10-25,2.0
+156,sar408701,2019-11-07,3.0
+157,continue pd-1/pd-l1 inhibitors treatment,2019-11-08,3.0
+158,pd-1,2019-11-14,3.0
+159,hb-201 intravenous administration,2019-11-27,1.0
+160,pembrolizumab and ramucirumab,2019-11-27,2.0
+161,tislelizumab+regorafenib for part 1;tislelizumab+regorafenib for group 1 of part 2; placebo+regorafenib for group 2 of part 2.,2019-12-03,2.0
+162,imc-001,2019-12-12,2.0
+163,inbrx-106 - hexavalent ox40 agonist antibody,2019-12-13,1.0
+164,mgd013 monotherapy,2019-12-26,2.0
+165,cobimetinib,2020-01-02,2.0
+166,chemotherapy,2020-01-18,2.0
+167,cisplatin,2020-01-18,2.0
+168,xmab24306,2020-01-31,1.0
+169,niz985 and spartalizumab,2020-02-07,1.0
+170,imc-f106c,2020-02-10,1.0
+171,ucpvax + nivolumab,2020-02-10,2.0
+172,sintilimab,2020-02-13,2.0
+173,paclitaxel,2020-02-20,2.0
+174,nivolumab + paclitaxel,2020-02-24,2.0
+175,interleukin-15 superagonist (n-803),2020-03-02,1.0
+176,regorafenib/nivolumab,2020-03-17,2.0
+177,copanlisib hydrochloride,2020-03-23,1.0
+178,celecoxib,2020-04-16,2.0
+179,cc-90011,2020-04-17,2.0
+180,fluorouracil (5-fu),2020-05-07,2.0
+181,shr2554+shr1701,2020-05-29,1.0
+182,anti-pd-1 antibody+peg-asparaginase+chidamide,2020-06-03,2.0
