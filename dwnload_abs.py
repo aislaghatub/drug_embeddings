@@ -24,7 +24,7 @@ for i in range(len(df_drug)): # for every unique drug name
     keyword = df_drug['Drug Name'][i]    #"Pembrolizumab"
     
     maxdate= int(df_drug['Date'][i][:4])-years_bf_trl
-    result = Entrez.read(Entrez.esearch(db="pubmed", retmax=10, term=keyword,sort='relevance',datetype='EDAT', mindate=1950, maxdate=maxdate)) #, datetype=(mindate, maxdate)
+    result = Entrez.read(Entrez.esearch(db="pubmed", retmax=10, term=keyword,sort='relevance',datetype='EDAT', maxdate=maxdate)) #, datetype=(mindate, maxdate)
     print(
         "Total number of publications that contain the term {}: {}".format(
             keyword, result["Count"]
