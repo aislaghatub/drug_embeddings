@@ -17,7 +17,7 @@ import pandas as pd
 df_drug = pd.read_csv('drugs.csv')
 df_drug = df_drug.reset_index()
 
-years_bf_trl=2
+years_bf_trl=1
 abstract_list=[]
 
 for i in range(len(df_drug)): # for every unique drug name
@@ -50,8 +50,8 @@ for i in range(len(df_drug)): # for every unique drug name
     elif len(ids)>0 and len(ids)<10:
         less_than_ten_abs.append(keyword)
         
-    elif len(ids)>100:
-        ids = ids[:100] 
+    elif len(ids)>200:
+        ids = ids[:200] 
        
     batches = [ids[x: x + 10] for x in range(0, len(ids), batch_size)]
     
@@ -69,8 +69,8 @@ abstracts_df=pd.DataFrame(abstract_list) # convert to pandas dataframe
 abstracts_df=abstracts_df[['AB','LR']] # get only abstract text and date
 abstracts_df['LR']=pd.to_datetime(abstracts_df['LR']) # convert string date into datetime format
 abstracts_df.columns = ['text', 'date']
-abstracts_df.to_pickle('abstracts.pkl')# save data as pickle
-abstracts_df.to_csv('abstracts.csv')# save data as csv
+abstracts_df.to_pickle('abstracts_minus1year.pkl')# save data as pickle
+abstracts_df.to_csv('abstracts_minus1year.csv')# save data as csv
 
 no_abs_drugs_df = pd.DataFrame(zero_abs)
 no_abs_drugs_df.to_csv('drugs_with_no_abs.csv')# save data as csv
