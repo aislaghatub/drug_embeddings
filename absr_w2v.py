@@ -9,12 +9,10 @@ import pandas as pd
 import string
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib import cm
 
-from gensim.test.utils import datapath
-from gensim import utils
 from gensim.models import Word2Vec
 
-import gensim.models
 from sklearn.manifold import TSNE
 
 # remove punctuation
@@ -53,46 +51,53 @@ def display_closestwords_tsnescatterplot(model, word, topn, size,approved_drugs,
     Y = tsne.fit_transform(arr)
     x_coords = Y[:, 0]
     y_coords = Y[:, 1]
+    
+    plt.figure()
     plt.scatter(x_coords, y_coords)
+    colors = [ cm.YlOrRd(x) for x in np.linspace(0, 1, 6) ] # split colormap into 6
     for label, x, y in zip(word_labels, x_coords, y_coords):
         plt.annotate(label, xy=(x, y), xytext=(0, 0), textcoords='offset points')
         if label in approved_drugs:
-           plt.text(x, y, label, bbox=dict(facecolor='red', alpha=0.5))
+           plt.text(x, y, label, bbox=dict(facecolor=colors[5], alpha=0.5))
         elif label in other_drugs:
             label_stage = drug_stages[other_drugs.index(label)] # find index of the drug to return its stage in trials
             if label_stage == 0:
-                plt.text(x, y, label, bbox=dict(facecolor='blue', alpha=0.5))
+                plt.text(x, y, label, bbox=dict(facecolor=colors[0], alpha=0.5))
             elif label_stage == 1:
-                plt.text(x, y, label, bbox=dict(facecolor='cyan', alpha=0.5))
+                plt.text(x, y, label, bbox=dict(facecolor=colors[1], alpha=0.5))
             elif label_stage == 2:
-                plt.text(x, y, label, bbox=dict(facecolor='green', alpha=0.5))
+                plt.text(x, y, label, bbox=dict(facecolor=colors[2], alpha=0.5))
             elif label_stage == 3:
-                plt.text(x, y, label, bbox=dict(facecolor='yellow', alpha=0.5))
+                plt.text(x, y, label, bbox=dict(facecolor=colors[3], alpha=0.5))
             elif label_stage == 4:
-                plt.text(x, y, label, bbox=dict(facecolor='magenta', alpha=0.5))
+                plt.text(x, y, label, bbox=dict(facecolor=colors[4], alpha=0.5))
             
     plt.xlim(x_coords.min()+0.5, x_coords.max()+0.5)
     plt.ylim(y_coords.min()+0.5, y_coords.max()+0.5)
     plt.show()
     
 # # import and clean the abstract data
-# df=pd.read_pickle("abstracts.pkl") # import data
+# df=pd.read_pickle("abstracts_minus1year.pkl") # import data
 # df=df.dropna() # drop rows that have nan value 
 # df=df[~df.text.str.contains("nan")] #or have 'nan' string in them
 # df['text']=df['text'].str.lower() # make all text lower case
 # df['text']=df['text'].apply(remove_punctuation) # try applying it just to one row
 
+# # append drug bank info to abstracts...
+# df_drug_bank = pd.read_csv('csv files/drug_bank_data.csv')
+
+
 # text_list = [row.split(' ') for row in df['text']] # convert into list
 
-# remove title words... maybe later
-# title_words=['abstract','background','rationale','aims','purpose']
+# # remove title words... maybe later
+# # title_words=['abstract','background','rationale','aims','purpose']
 
 # model = gensim.models.Word2Vec(text_list, size=100, window=5, min_count=5, workers=4, sg=1)
-# model.save('w2v_abs_model.model')
+# model.save('w2v_100abs_model_1year.model')
 
 
 # for loading later...
-model = Word2Vec.load("w2v_abs_model.model")
+model = Word2Vec.load("w2v_100abs_model_1year.model")
 
 approved_drugs = ['ipilimumab', 'nivolumab','pembrolizumab','atezolizumab','avelumab','durvalumab','cemiplimab']
 # check what words are similar to approved drug names
@@ -107,9 +112,20 @@ df_drug = pd.read_csv('drugs.csv')
 other_drugs=df_drug['Drug Name'].tolist() # convert series to list
 drug_stages=df_drug['Stage'].tolist() # convert series to list
 
-num_sim_words=150
+num_sim_words=500
 size=100
-display_closestwords_tsnescatterplot(model, approved_drugs[0], num_sim_words, size,approved_drugs,other_drugs,drug_stages) 
+for i in range(len(approved_drugs)-1):
+    # plt.figure()
+    display_closestwords_tsnescatterplot(model, approved_drugs[i], num_sim_words, size,approved_drugs,other_drugs,drug_stages) 
+
+positive_health_words =['recovery','cure','heal'] 
+negative_health_words =['toxic','fatal','deterioration'] # damage
+
+for j in range(len(positive_health_words)):
+    display_closestwords_tsnescatterplot(model, positive_health_words[j], num_sim_words, size,approved_drugs,other_drugs,drug_stages) 
+    
+    display_closestwords_tsnescatterplot(model, negative_health_words[j], num_sim_words, size,approved_drugs,other_drugs,drug_stages) 
+
 
 
 
