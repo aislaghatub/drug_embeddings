@@ -23,7 +23,10 @@ oldest_drug_date = df_drug['Date'][0][:4]
 
 years_bf_trl=1
 abstract_list=[]
-
+abs_count=[]
+zero_abs=[]
+less_than_ten_abs=[]
+    
 for i in range(len(df_drug)): # for every unique drug name
     keyword = df_drug['Drug Name'][i]    #"Pembrolizumab"
     
@@ -36,26 +39,23 @@ for i in range(len(df_drug)): # for every unique drug name
     )
     
     # Fetch all ids
-    MAX_COUNT = result["Count"]
+    abs_count.append(result["Count"])
     result = Entrez.read(
-        Entrez.esearch(db="pubmed", retmax=result["Count"], term=keyword,sort='relevance',datetype='EDAT', mindate=1950, maxdate=maxdate)
+        Entrez.esearch(db="pubmed", retmax=result["Count"], term=keyword,sort='relevance',datetype='EDAT', maxdate=maxdate)
     )
     
     ids = result["IdList"]
     batch_size = 10
     
-    # keep track of drugs with zero or less than 10 abstracts
-    zero_abs=[]
-    less_than_ten_abs=[]
-    
+    # keep track of drugs with zero or less than 10 abstracts  
     if len(ids)==0:
         zero_abs.append(keyword)     
     
     elif len(ids)>0 and len(ids)<10:
         less_than_ten_abs.append(keyword)
         
-    elif len(ids)>200:
-        ids = ids[:200] 
+    elif len(ids)>500:
+        ids = ids[:500] 
        
     batches = [ids[x: x + 10] for x in range(0, len(ids), batch_size)]
     
@@ -65,6 +65,7 @@ for i in range(len(df_drug)): # for every unique drug name
         records = Medline.parse(h)
         record_list.extend(list(records))
     print("Complete.")
+
     
     abstract_list.extend(record_list) # store abstracts for all drugs
 
@@ -73,11 +74,15 @@ abstracts_df=pd.DataFrame(abstract_list) # convert to pandas dataframe
 abstracts_df=abstracts_df[['AB','LR']] # get only abstract text and date
 abstracts_df['LR']=pd.to_datetime(abstracts_df['LR']) # convert string date into datetime format
 abstracts_df.columns = ['text', 'date']
-abstracts_df.to_pickle('abstracts_bfoldestdrug.pkl')# save data as pickle
-abstracts_df.to_csv('abstracts_bfoldestdrug.csv')# save data as csv
+abstracts_df.to_pickle('abstracts_500bfoldestdrug.pkl')# save data as pickle
+abstracts_df.to_csv('abstracts_500bfoldestdrug.csv')# save data as csv
 
 no_abs_drugs_df = pd.DataFrame(zero_abs)
 no_abs_drugs_df.to_csv('drugs_with_no_abs.csv')# save data as csv
 
 ten_abs_drugs_df = pd.DataFrame(less_than_ten_abs)
 ten_abs_drugs_df.to_csv('drugs_with_less_than_ten_abs.csv')# save data as csv
+
+abs_count_df = pd.DataFrame(abs_count,columns=['Num abstracts found'])
+abs_count_df['Drug Name'] = df_drug['Drug Name']
+abs_count_df.to_csv('num_abs_per_drug.csv')# save data as csv
