@@ -1,184 +1,184 @@
 ,Num abstracts found,Drug Name
-0,922,pd-0332991
-1,39,prexasertib
-2,3414,pemetrexed
-3,3527,ipilimumab
-4,510,low dose cyclophosphamide (oral)
-5,17431,cytarabine
-6,2,ags15e
-7,3877,pembrolizumab
-8,4930,nivolumab
-9,7110,gefitinib
+0,13,pd-0332991
+1,0,prexasertib
+2,842,pemetrexed
+3,128,ipilimumab
+4,331,low dose cyclophosphamide (oral)
+5,14317,cytarabine
+6,0,ags15e
+7,11,pembrolizumab
+8,46,nivolumab
+9,4275,gefitinib
 10,0,hyperacute®-melanoma (ham) immunotherapy
-11,152,indoximod
-12,264,alisertib
-13,41,ly2606368
+11,52,indoximod
+12,56,alisertib
+13,0,ly2606368
 14,0,omaveloxolone capsules (2.5 mg/capsule)
 15,0,pbf-509_80 mg
-16,16504,docetaxel
-17,50,bbi608
-18,1362,olaparib
-19,8,imcgp100
-20,16905,gemcitabine
-21,70,pv-10
-22,1043,atezolizumab
-23,7,tivozanib hydrochloride
+16,10835,docetaxel
+17,0,bbi608
+18,272,olaparib
+19,1,imcgp100
+20,11252,gemcitabine
+21,35,pv-10
+22,9,atezolizumab
+23,6,tivozanib hydrochloride
 24,0,ose2101
-25,3,tlpldc vaccine
-26,770,vismodegib
-27,114,galunisertib
-28,72,pexidartinib
-29,495,durvalumab; medi4736
-30,4,sra737
+25,0,tlpldc vaccine
+26,349,vismodegib
+27,29,galunisertib
+28,12,pexidartinib
+29,9,durvalumab; medi4736
+30,0,sra737
 31,0,"sra737, gemcitabine, cisplatin"
-32,97,mocetinostat
-33,61,ca-170
-34,3884,mk-3475
-35,63,lcl161
+32,61,mocetinostat
+33,47,ca-170
+34,235,mk-3475
+35,18,lcl161
 36,0,tmt212
-37,495,durvalumab
+37,9,durvalumab
 38,0,incb001158
 39,0,ck-101
 40,0,faz053
-41,25232,immune checkpoint inhibitors or docetaxel
-42,7262,cetuximab
-43,61215,interleukin-2
-44,134,anti-pd-l1 antibody atezolizumab
-45,420,avelumab
-46,5,trilaciclib
-47,992,axitinib
-48,3010,denosumab
+41,12605,immune checkpoint inhibitors or docetaxel
+42,4967,cetuximab
+43,57370,interleukin-2
+44,11,anti-pd-l1 antibody atezolizumab
+45,28,avelumab
+46,0,trilaciclib
+47,623,axitinib
+48,1794,denosumab
 49,0,olaptesed pegol - monotherapy
-50,1749,pazopanib
-51,24,enfortumab vedotin
-52,235,intralesional il-2
-53,1,alt-803 + pembrolizumab
-54,357,decitabine (dac)
+50,1047,pazopanib
+51,1,enfortumab vedotin
+52,221,intralesional il-2
+53,0,alt-803 + pembrolizumab
+54,255,decitabine (dac)
 55,0,asp8374
-56,41,opdivo injectable product or keytruda injectable product
+56,5,opdivo injectable product or keytruda injectable product
 57,0,pbf-1129
-58,14,pembrolizumab at 7 days prior
-59,58507,5-fluorouracil (5-fu)
-60,73590,cyclophosphamide
-61,3,enfortumab vedotin (ev)
-62,59,nivolumab injection
-63,305,dsp-7888 dosing emulsion
-64,3891,immune checkpoint inhibitor
-65,72543,doxorubicin
-66,77,epacadostat
-67,785,cyp1a2 (caffeine)
+58,2,pembrolizumab at 7 days prior
+59,51961,5-fluorouracil (5-fu)
+60,67342,cyclophosphamide
+61,0,enfortumab vedotin (ev)
+62,6,nivolumab injection
+63,229,dsp-7888 dosing emulsion
+64,512,immune checkpoint inhibitor
+65,61079,doxorubicin
+66,6,epacadostat
+67,683,cyp1a2 (caffeine)
 68,0,ly3381916
-69,73,cyclophosphamide 50mg
-70,1749,testosterone undecanoate and sunitinib or pazopanib
-71,44975,propranolol hydrochloride
+69,52,cyclophosphamide 50mg
+70,1047,testosterone undecanoate and sunitinib or pazopanib
+71,43310,propranolol hydrochloride
 72,0,apg-1387 for injection
-73,62,cemiplimab
-74,38,rhil-15
-75,37,camrelizumab
-76,8719,sorafenib
-77,1015332,bi 836880
-78,3,vorolanib
-79,7078,pembrolizumab or nivolumab
-80,39,trastuzumab deruxtecan
-81,839,cabozantinib
-82,183,ad-p53
-83,15,m7824
-84,12,hu5f9-g4
-85,37,pembrolizumab injection [keytruda]
-86,262,rucaparib
-87,1458,valacyclovir
+73,3,cemiplimab
+74,32,rhil-15
+75,0,camrelizumab
+76,6764,sorafenib
+77,960946,bi 836880
+78,0,vorolanib
+79,2520,pembrolizumab or nivolumab
+80,5,trastuzumab deruxtecan
+81,471,cabozantinib
+82,177,ad-p53
+83,3,m7824
+84,2,hu5f9-g4
+85,9,pembrolizumab injection [keytruda]
+86,121,rucaparib
+87,1316,valacyclovir
 88,0,vegfr/pdgfr dual kinase inhibitor x-82
-89,228789,placebo
-90,431,blinatumomab
-91,1,tomivosertib (eft-508)
-92,17,lmb-100
-93,1,com701
-94,947505,denosumab-nivolumab combination
-95,4187,immune-checkpoint inhibitors therapies
-96,9,9-ing-41
+89,205299,placebo
+90,250,blinatumomab
+91,0,tomivosertib (eft-508)
+92,11,lmb-100
+93,0,com701
+94,827400,denosumab-nivolumab combination
+95,1619,immune-checkpoint inhibitors therapies
+96,4,9-ing-41
 97,0,grapiprant and pembrolizumab
-98,21991,metformin hydrochloride
-99,6135,sunitinib
-100,91,rintatolimod
-101,46,azd6738
+98,17091,metformin hydrochloride
+99,5099,sunitinib
+100,89,rintatolimod
+101,18,azd6738
 102,0,av-mel-1
-103,1113,dabrafenib
-104,25,pd-1 antibody (shr-1210)
-105,9,checkpoint inhibitor (cpi) such as pembrolizumab
-106,236,tas 102
+103,724,dabrafenib
+104,0,pd-1 antibody (shr-1210)
+105,1,checkpoint inhibitor (cpi) such as pembrolizumab
+106,137,tas 102
 107,0,azd5363+olaparib+durvalumab
-108,16,toripalimab
-109,53138,prednisone
-110,219,nivolumab plus ipilimumab
-111,7704,temozolomide
+108,0,toripalimab
+109,51473,prednisone
+110,107,nivolumab plus ipilimumab
+111,6685,temozolomide
 112,1,tsr-042
-113,495,durvalumab (medi4736)
-114,1,avid200
+113,241,durvalumab (medi4736)
+114,0,avid200
 115,0,kn046
 116,1,ft500
-117,3,tagrisso® 80mg (osimertinib)
+117,2,tagrisso® 80mg (osimertinib)
 118,0,nivolumab 480mg and surgical resection
 119,0,surufatinib/humanized anti-pd-1 monoclonal antibody
-120,1,ctx-471
+120,0,ctx-471
 121,1,idh1r132h peptide vaccine
 122,0,nt-i7
-123,14,vtx-2337
-124,7,sitravatinib
-125,6961,capecitabine
-126,2276,shr1210 combined with folfox
-127,17522,carboplatin
+123,12,vtx-2337
+124,3,sitravatinib
+125,6291,capecitabine
+126,2144,shr1210 combined with folfox
+127,16466,carboplatin
 128,0,"shr-1210 combined with trastuzumab , oxaliplatin and capecitabine"
-129,7,parp inhibitor and anti-pd-l1
+129,5,parp inhibitor and anti-pd-l1
 130,0,"combined therapy using oxaliplatin and gemcitabine chemotherapy, lenvatinib and pd1 antibody (js001)"
 131,0,intraperitoneal (ip) nivolumab infusion
 132,0,js001(pd-1 inhibitor)
 133,0,sintilimab maintenance
-134,1015332,bi 765063
-135,1,cx-072
-136,2410,pd-1 inhibitor
+134,986210,bi 765063
+135,0,cx-072
+136,1352,pd-1 inhibitor
 137,2,"radium-223 dichloride (xofigo, bay 88-8223)"
 138,0,tno155
-139,2,medi0457
+139,1,medi0457
 140,0,89zr-dfo-atezolizumab
 141,0,thor-707
-142,12,the combination of radiotherapy with anti-pd1 (pembrolizumab or nivolumab)
+142,6,the combination of radiotherapy with anti-pd1 (pembrolizumab or nivolumab)
 143,0,imsa101
 144,0,sns-301
 145,14,dexamthasone
 146,0,prolonged glucocorticosteroid (prednisone) regimen
-147,1980,loperamide
+147,1840,loperamide
 148,1,atezolizumab injection [tecentriq]
-149,1197,trametinib
-150,3,cd24fc
-151,2940871,peptide
-152,3,bay1895344
+149,867,trametinib
+150,2,cd24fc
+151,2857116,peptide
+152,0,bay1895344
 153,0,bnt411
-154,546,pegylated liposomal doxorubicin (pld)
-155,48,capmatinib
+154,502,pegylated liposomal doxorubicin (pld)
+155,20,capmatinib
 156,1,sar408701
-157,17,continue pd-1/pd-l1 inhibitors treatment
-158,14041,pd-1
+157,12,continue pd-1/pd-l1 inhibitors treatment
+158,9476,pd-1
 159,0,hb-201 intravenous administration
-160,82,pembrolizumab and ramucirumab
+160,38,pembrolizumab and ramucirumab
 161,0,tislelizumab+regorafenib for part 1;tislelizumab+regorafenib for group 1 of part 2; placebo+regorafenib for group 2 of part 2.
 162,0,imc-001
 163,0,inbrx-106 - hexavalent ox40 agonist antibody
-164,48105,mgd013 monotherapy
-165,268,cobimetinib
-166,3351140,chemotherapy
-167,75367,cisplatin
+164,43248,mgd013 monotherapy
+165,252,cobimetinib
+166,3332221,chemotherapy
+167,73940,cisplatin
 168,0,xmab24306
-169,6,niz985 and spartalizumab
+169,2,niz985 and spartalizumab
 170,0,imc-f106c
-171,4930,ucpvax + nivolumab
-172,19,sintilimab
-173,37060,paclitaxel
-174,87,nivolumab + paclitaxel
-175,2,interleukin-15 superagonist (n-803)
-176,64,regorafenib/nivolumab
+171,4366,ucpvax + nivolumab
+172,7,sintilimab
+173,36220,paclitaxel
+174,73,nivolumab + paclitaxel
+175,0,interleukin-15 superagonist (n-803)
+176,52,regorafenib/nivolumab
 177,0,copanlisib hydrochloride
-178,6914,celecoxib
+178,6759,celecoxib
 179,2,cc-90011
-180,58507,fluorouracil (5-fu)
+180,57895,fluorouracil (5-fu)
 181,0,shr2554+shr1701
-182,3410,anti-pd-1 antibody+peg-asparaginase+chidamide
+182,2929,anti-pd-1 antibody+peg-asparaginase+chidamide
