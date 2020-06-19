@@ -17,14 +17,13 @@ Created on Thu Jun  4 13:07:13 2020
     # Completed
  # Studies were downloaded on 04/06/2020
    
-# Not applicable phases were not included as this is defined as behvioral
+# Not applicable phases were not included as this is defined as behavioral
 # or device intervention
 
 import pandas as pd
 from datetime import datetime
-import numpy as np
 
-# make function to process trials
+# function to process trials
 def get_drugs_from_trials(df, phase): 
     
     # make new df: First Posted, Interventions, Phase
@@ -63,8 +62,6 @@ def get_drugs_from_trials(df, phase):
     return new_df
 
     
-# Early Phase 1 / Phase 0
-# 7 studies found
 df_full=pd.DataFrame([])
 phaseStr = ['Zero','One','Two','Three','Four']
 # for each phase, get the new data frame with drugs used, date and phase
@@ -95,7 +92,6 @@ first_date=[]
 stage=[]
 for i in range(len(unq_drugs)):
     date_unq_drugs = df_full[df_full['Drug Names'] == unq_drugs[i]]
-    #date_unq_drugs = df_full[df_full['Drug Names'].isin([unq_drugs[i]])]
     date_unq_drugs = date_unq_drugs.reset_index()
     first_date.append(date_unq_drugs['Date'][0]) # the first index is the earliest date
     stage.append(date_unq_drugs['Stage'][0])
@@ -104,7 +100,7 @@ df_drug = pd.DataFrame([])
 df_drug['Drug Name'] = unq_drugs
 df_drug['Date'] = first_date
 df_drug['Stage'] = stage
-df_drug.to_csv('drugs.csv')
+df_drug.to_csv('drugs.csv') # save dataframe as csv file
 
 
 
