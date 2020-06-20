@@ -3,6 +3,14 @@
 Created on Mon Jun  8 13:57:40 2020
 
 @author: aosulli4
+
+Reads in word2vec model, extracts embeddings for every drug. 
+Embeddings for approved drugs are given label 1, and embeddings for 
+developing drugs are given label 0. 
+Classification of drugs is implemented using 3 different classification 
+algorithms: Logistic Regression, Gaussian Naive Bayes and 
+a 2-layer Sequential Neural Network from Keras. 
+
 """
 
 # given word embeddings calculate probability of FDA approval
