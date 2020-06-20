@@ -5,7 +5,8 @@ The goal was to predict immunotherapy drugs for cancer, with a focus on inhibito
 
 # Requirements
 Python 3.7 and the following packages:
-*anaconda, Biophython, Gensim, sklearn, matplotlib, NLTK, wordcloud, Keras*
+
+*Anaconda, Biophython, Gensim, sklearn, matplotlib, NLTK, wordcloud, Keras*
 
 # Scripts
 **sort_clinical_trials.py:** imports data from clinical trials, extracts the drug used, date and phase of each trial. Approved drugs are also added to the dataframe of drugs.
