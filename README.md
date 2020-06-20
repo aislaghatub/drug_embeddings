@@ -12,6 +12,7 @@ Python 3.7 and the following packages:
 **sort_clinical_trials.py:** imports data from clinical trials, extracts the drug used, date and phase of each trial. Approved drugs are also added to the dataframe of drugs.
 
 *Inputs: 'pZero_trials.csv', 'pOne_trials.csv', 'pTwo_trials.csv', 'pThree_trials.csv', 'pFour_trials.csv'*
+
 *Output: 'drugs.csv'*
 
 **dwnload_abs.py:** downloads abstracts from pubmed using the drug names in *'drugs.csv'* as search terms and the trial date for setting the max date of the search. Prepares the abstarcts for word2vec.
@@ -41,7 +42,6 @@ Python 3.7 and the following packages:
 **decision_classifier.py:** reads in word2vec model, extracts embeddings for every drug. Embeddings for approved drugs are given label 1, and embeddings for developing drugs are given label 0. 
 
 Classification of drugs is implemented using 3 different classification algorithms: 
-
 Logistic Regression, Gaussian Naive Bayes and a 2-layer Sequential Neural Network from Keras. 
 
 *Inputs: 'abs_fiveto1k_minus1year.data', 'drugs.csv'*
