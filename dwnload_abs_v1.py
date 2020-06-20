@@ -8,7 +8,7 @@ Created on Wed Jun  3 11:46:37 2020
 # using biophython
 from Bio import Entrez
 from Bio import Medline
-from tqdm import tqdm
+from tqdm import tqdm # progress meter for abstract download
 
 import pandas as pd
 import string
