@@ -39,7 +39,9 @@ Python 3.7 and the following packages:
 
 *Output: PCA plot of all drugs*
 
-**decision_classifier.py:** reads in word2vec model, extracts embeddings for every drug. Embeddings for approved drugs are given label 1, and embeddings for developing drugs are given label 0. classification of drugs is implemented using 3 different classification algorithms: Logistic Regression, Gaussian Naive Bayes and a 2-layer Sequential Neural Network from Keras. 
+**decision_classifier.py:** reads in word2vec model, extracts embeddings for every drug. Embeddings for approved drugs are given label 1, and embeddings for developing drugs are given label 0. 
+Classification of drugs is implemented using 3 different classification algorithms: 
+Logistic Regression, Gaussian Naive Bayes and a 2-layer Sequential Neural Network from Keras. 
 
 *Inputs: 'abs_fiveto1k_minus1year.data', 'drugs.csv'*
 
