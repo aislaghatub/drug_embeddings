@@ -3,6 +3,12 @@
 Created on Wed Jun  3 11:46:37 2020
 
 @author: aosulli4
+
+Downloads abstracts from pubmed using the drug names in drugs.csv as search terms 
+and the trial date for setting the max date of the search. 
+Prepares the abstarcts for word2vec.
+Saves the abstracts as list of words. Also saves the number of abstracts per drug.
+
 """
 
 # using biophython
