@@ -15,7 +15,7 @@ Python 3.7 and the following packages:
 
 *Output: 'drugs.csv'*
 
-**dwnload_abs.py:** downloads abstracts from pubmed using the drug names in drugs.csv as search terms and the trial date for setting the max date of the search. Prepares the abstarcts for word2vec.
+**dwnload_abs.py:** downloads abstracts from pubmed using the drug names in *'drugs.csv'* as search terms and the trial date for setting the max date of the search. Prepares the abstarcts for word2vec.
 
 *Input: 'drugs.csv'*
 
@@ -33,7 +33,7 @@ Python 3.7 and the following packages:
 
 *Output: 'abs_fiveto1k_minus1year.model', plot of cosine similarity between an approved drug and all other drugs*
 
-**pca_embeds.py:** reads in word2vec model, extracts embeddings for every word and reduces the embeddings from 100 dimensions to 2 dimensions using PCA. All drugs (approved and developing) are plotted in 2d space.
+**pca_embeds.py:** reads in word2vec model, extracts embeddings for every word and reduces the embeddings to 2 dimensions using PCA. All drugs (approved and developing) are plotted in 2d space.
 
 *Inputs: 'abs_fiveto1k_minus1year.data', 'drugs.csv'*
 
