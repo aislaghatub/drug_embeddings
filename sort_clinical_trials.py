@@ -3,6 +3,11 @@
 Created on Thu Jun  4 13:07:13 2020
 
 @author: aosulli4
+
+Imports data from clinical trials, extracts the drug used, date and phase of each trial. 
+Approved drugs are also added to the dataframe of drugs.
+Drugs dataframe is saved as .csv file
+
 """
 
 # import clinical trials 
