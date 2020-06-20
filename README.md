@@ -9,6 +9,8 @@ Python 3.7 and the following packages:
 *Anaconda, Biophython, Gensim, sklearn, matplotlib, NLTK, wordcloud, Keras*
 
 # Scripts
+## This project contains the following scripts:
+
 **sort_clinical_trials.py:** imports data from clinical trials, extracts the drug used, date and phase of each trial. Approved drugs are also added to the dataframe of drugs.
 
 *Inputs: 'pZero_trials.csv', 'pOne_trials.csv', 'pTwo_trials.csv', 'pThree_trials.csv', 'pFour_trials.csv'*
