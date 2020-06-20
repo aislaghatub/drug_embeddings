@@ -1,4 +1,4 @@
-# drug_embeddings
+# Using word embeddings to predict successful drugs 
  
 Predicting immunotherapy drugs that will be FDA approved 
 
